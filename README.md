@@ -6,7 +6,7 @@ In a group of 4 students, with this assignment we will assess how well we can pr
 ## Repo structure
 ### Data
 
-Two JSON files will be provided by the university, containing a [train set](data\train.json) and a [test set](data\test.json). Evaluation of our predictions on the unlabeled test set, will be done through applying this code:
+Two JSON files will be provided by the university, containing a [train set](data/train.json) and a [test set](data/test.json). Evaluation of our predictions on the unlabeled test set, will be done through applying this code:
 
 ```
 import json
