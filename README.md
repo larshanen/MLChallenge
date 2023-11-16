@@ -23,3 +23,10 @@ def evaluate(gold_path, pred_path):
 
 ### Method
 Part (X%) of the provided train set will be used as a validation set. As the test set remains unlabeled until after the university deadline, this validation set is what we use to assess the quality of our predictions. The assessment is done by calculating the Mean Squared Error (MSE).
+
+### Tasks
+- [x] Set up Github environment
+- [x] Document baseline code provided by uni
+- [ ] Discuss first thoughts on predictive performance
+- [ ] Define and describe metadata (entrytype, title, editor, year, publisher, author, abstract), think of type (e.g. categorical, numerical) and purpose
+- [ ] Perform EDA (correlation analysis, linear regression)
