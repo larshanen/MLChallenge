@@ -31,10 +31,10 @@ Part (X%) of the provided train set will be used as a validation set. As the tes
 - [ ] Define and describe metadata (entrytype, title, editor, year, publisher, author, abstract), think of type (e.g. categorical, numerical) and purpose
 - [ ] Perform EDA (correlation analysis, linear regression)
 
-| Checkmark           | Task | Team member |
-| ---------- | ----------- | ----------- |
-| - [ ]      | Set up Github environment       | Lars       |
-| - [ ]      | Document baseline code provided by uni        | Lars        |
-| - [ ]      | Discuss first thoughts on predictive performance      | Team       |
-| - [ ]      | Define and describe metadata (entrytype, title, editor, year, publisher, author, abstract), think of type (e.g. categorical, numerical) and purpose       | ?        |
-| - [ ]      | Perform EDA (correlation analysis, linear regression)      | ?       |
+            | Task | Team member |
+            | ----------- | ----------- |
+- [ ]       | Set up Github environment       | Lars       |
+- [ ]       | Document baseline code provided by uni        | Lars        |
+- [ ]       | Discuss first thoughts on predictive performance      | Team       |
+- [ ]       | Define and describe metadata (entrytype, title, editor, year, publisher, author, abstract), think of type (e.g. categorical, numerical) and purpose       | ?        |
+- [ ]       | Perform EDA (correlation analysis, linear regression)      | ?       |
