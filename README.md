@@ -30,7 +30,7 @@ Part (X%) of the provided train set will be used as a validation set. As the tes
 - [x] Document baseline code provided by uni
 
 ### Round 1 (22 nov): Exploratory Data Analysis
-- [ ] Lars: Make overview of NLP methods relevant for assignment, setup a notebook for each task/team member in round 1
+- [ ] Lars: Make overview of NLP methods relevant for assignment, setup a notebook for each task/team member in round 1 and apply first changes to baseline code
 - [ ] Alysha: Define and describe metadata (entrytype, title, editor, year, publisher, author, abstract), think of type (e.g. categorical, numerical) and purpose of the 'column'
 - [ ] Bell: Missing data analysis, if ready help Alysha if needed
 - [ ] Rick: Missing data heatmap using Bell's analysis, start model comparisons
