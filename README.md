@@ -29,11 +29,21 @@ Part (X%) of the provided train set will be used as a validation set. As the tes
 - [x] Set up Github environment
 - [x] Document baseline code provided by uni
 
-### Round 1 (22 nov): Exploratory Data Analysis
+### Round 1 (23 nov): Exploratory Data Analysis
 - [x] Lars: Make overview of NLP methods relevant for assignment, setup a notebook for each task/team member in round 1 and apply first changes to baseline code
-- [ ] Alysha: Define and describe metadata (entrytype, title, editor, year, publisher, author, abstract), think of type (e.g. categorical, numerical) and purpose of the 'column'
-- [ ] Bell: Missing data analysis, if ready help Alysha if needed
-- [ ] Rick: Missing data heatmap using Bell's analysis, start model comparisons
+- [x] Alysha: Define and describe metadata (entrytype, title, editor, year, publisher, author, abstract), think of type (e.g. categorical, numerical) and purpose of the 'column'
+- [x] Bell: Missing data analysis, if ready help Alysha if needed
+- [x] Rick: Missing data heatmap using Bell's analysis, start model comparisons
 
-### Round 2 (...): ...
-- [ ] ...
+#### EDA Findings:
+
+- There's a steep increase of number of publications over years; 
+- Time-series model (ARIMA) could therefore be useful, Rick has some experience with that;
+- The abstract column has a lot of missing values;
+- Title and author are mandatory, others have relatively more missing values;
+- Editor has highest percentage of missing data;
+- Editor and abstract seem to be MNAR.
+
+### Round 2 (29 nov): Modelling and Missing Data Imputation
+- [ ] Lars and Rick: Translation of languages, try to see if columns can be made numerical 
+- [ ] Bell and Alysha: Missing data imputation exploration
