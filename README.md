@@ -45,5 +45,11 @@ Part (X%) of the provided train set will be used as a validation set. As the tes
 - Editor and abstract seem to be MNAR.
 
 ### Round 2 (29 nov): Modelling and Missing Data Imputation
-- [ ] Lars and Rick: Translation of languages, try to see if columns can be made numerical 
+- [x] Lars and Rick: Translation of languages, feature extraction/selection, try to see if columns can be made numerical 
 - [ ] Bell and Alysha: Missing data imputation exploration
+
+#### Feature extraction/selection Findings:
+
+- Column authors: lots of features even after stopwords removal, use X most frequent (hyperparameter that we will tune eventually) because least frequent leads to sparsity (?);
+- Column publishers: lots of features even after stopwords removal, use X most frequent (hyperparameter that we will tune eventually) because least frequent leads to sparsity (?);
+- Column ENTRYTYPE: 3-categorical, one-hot encoded
